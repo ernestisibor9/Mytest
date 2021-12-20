@@ -6,6 +6,13 @@ import Obj from './components/Obj';
 import Counter from './components/Counter';
 import UseEff from './components/UseEff';
 import Loading from './components/Loading';
+import Ternary from './components/Ternary';
+import Form from './components/Form';
+import { FaApple } from "react-icons/fa";
+import Review from './components/Review';
+
+
+
 
 function App() {
   return (
@@ -16,8 +23,12 @@ function App() {
       <Obj/>
       <Counter/>
       <UseEff/>
-      */}
       <Loading/>
+      <Ternary/>
+       <Form/>
+      */}
+      <FaApple className='myicon'/>
+      <Review/>
     </div>
   );
 }
